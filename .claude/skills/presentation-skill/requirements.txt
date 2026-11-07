@@ -1,0 +1,12 @@
+python-pptx>=1.0.2,<2
+Pillow>=10.0.0,<12
+lxml>=5.0.0,<6
+pytest>=8.0.0,<9
+# Optional content QA:
+# markitdown[pptx]>=0.1.0
+# Optional image inputs:
+# pillow-heif>=0.16.0
+# Optional icon fallback:
+# cairosvg>=2.7.0
+# optional: openxml-audit  (qa_check --integrity OOXML schema validation)
+# optional: imagehash  (visual_regress.py perceptual hashing)
